@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{ 
+  background:url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.circlebrown,.circlered,.circleyellow,.circlemaroon{
+border:1px solid;
+width:30px;
+height:30px;
+border-radius:50%;
+}
+.circlebrown{
+background-color:#873e0f;	
+}
+.circlered{
+background-color:#be5a0f;
+}
+.circleyellow{
+background-color:#c8881d;
+}
+.circlemaroon{
+background-color:#be220e;
+}
+ul{
+	list-style:none;
+	text-align:center;
+	padding-top:2em;
+}
+li{
+	display:inline-block;
+	
+}
+p{
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	font-size:15px;		
+    letter-spacing:2px;
+	padding-top:2em;
+}
+.footer a{
+	text-decoration:none;
+		
+}
+h1{
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	font-size:25px;		
+	text-align:center;
+	letter-spacing:2px;
+}
+h1:after{
+content:"";
+background-color:#1fa8d6;
+width:48px;
+height:5px;
+display:block;
+margin:0 auto;
+margin-top:10px;
+}
+
+.imagestyle{
+padding-top:2em;
+}
+
+
